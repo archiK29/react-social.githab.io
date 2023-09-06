@@ -1,7 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"; /* импортируем из модуля */
+/* import logo from "./logo.svg"; */
+import "./App.css";
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
+import Content from "./components/Content";
 
-function App() {
+const App = () => {
+  return (
+    <div className="app-wrapper">
+      <Header />
+      <Navigation />
+      <Content />
+    </div>
+  );
+};
+
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +34,6 @@ function App() {
       </header>
     </div>
   );
-}
+} */
 
 export default App;
