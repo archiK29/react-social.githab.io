@@ -1,0 +1,35 @@
+.content__posts>span {
+  display: block;
+  color: #4a4747;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.content__input {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #ccc;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 40px;
+  font-size: 20px;
+  color: #525050;
+  margin-bottom: 20px;
+}
+
+.content__btn {
+  display: block;
+  width: 200px;
+  background-color: #1f13ce;
+  border: none;
+  font-size: 28px;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

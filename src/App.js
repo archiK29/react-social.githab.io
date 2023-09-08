@@ -1,39 +1,33 @@
 import React from "react"; /* импортируем из модуля */
 /* import logo from "./logo.svg"; */
 import "./App.css";
-import Header from "./components/Header";
-import Navigation from "./components/Navigation";
-import Content from "./components/Content";
+import Header from "./components/Header/Header";
+import Navigation from "./components/Navigation/Navigation";
+import Content from "./components/Content/Content";
+import Dialogs from "./components/Dialogs/Dialogs";
+import News from "./components/News/News";
+import Music from "./components/Music/Music";
+import Settings from "./components/Settings/Settings";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="app-wrapper">
-      <Header />
-      <Navigation />
-      <Content />
-    </div>
+    <BrowserRouter>
+      <div className="app-wrapper">
+        <Header />
+        <Navigation />
+        <div className="content-wrapper">
+          <Routes>
+            <Route path="/dialogs/*" element={<Dialogs />} />
+            <Route path="/content" element={<Content />} />
+            <Route path="/news/*" element={<News />} />
+            <Route path="/music" element={<Music />} />
+            <Route path="/settings" element={<Settings />} />
+          </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
   );
 };
-
-/* function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-} */
 
 export default App;

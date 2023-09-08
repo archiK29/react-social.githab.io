@@ -1,0 +1,15 @@
+.content__post {
+  color: #4a4747;
+  font-size: 28px;
+  margin-bottom: 80px;
+}
+
+.content__img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.content__text {
+  margin-left: 20px;
+}

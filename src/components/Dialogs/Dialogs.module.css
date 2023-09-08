@@ -1,0 +1,36 @@
+.dialog__title {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 5px;
+  background-color: #1f13ce;
+  color: #fff
+}
+
+.dialog__wrapper {
+  display: grid;
+  grid-template-columns: 4fr 10fr;
+}
+
+.dialog__persons {
+  list-style-type: none;
+}
+
+.dialog__personsItem {
+  margin-top: 20px;
+}
+
+.dialog__personsImg {
+  width: 40px;
+}
+
+.dialog__personsLink {
+  display: inline-block;
+  margin-left: 10px;
+  color: #022308;
+  text-decoration: none;
+}
+
+.active {
+  color: yellow;
+}

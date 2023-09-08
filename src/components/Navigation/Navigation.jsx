@@ -1,33 +1,35 @@
 import React from "react";
+import "./navigation.css";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <nav className="navigation">
       <ul className="navigation__list">
         <li className="navigation__item">
-          <a href="#s" className="navigation__link">
+          <Link to="/content" className="navigation__link">
             Profile
-          </a>
+          </Link>
         </li>
         <li className="navigation__item">
-          <a href="#s" className="navigation__link">
+          <Link to="/dialogs" className="navigation__link">
             Messages
-          </a>
+          </Link>
         </li>
         <li className="navigation__item">
-          <a href="#s" className="navigation__link">
+          <Link to="/news" className="navigation__link">
             News
-          </a>
+          </Link>
         </li>
         <li className="navigation__item">
-          <a href="#s" className="navigation__link">
+          <Link to="/music" className="navigation__link">
             Music
-          </a>
+          </Link>
         </li>
         <li className="navigation__item">
-          <a href="#s" className="navigation__link">
+          <Link to="/settings" className="navigation__link">
             Settings
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

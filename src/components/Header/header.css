@@ -1,0 +1,12 @@
+.header {
+  grid-area: h;
+  background-color: #1f13ce;
+}
+
+.header__logo {
+  height: 65px;
+  display: block;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

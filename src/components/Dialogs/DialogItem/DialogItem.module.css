@@ -1,0 +1,18 @@
+.dialog__personsItem {
+  margin-top: 20px;
+}
+
+.dialog__personsImg {
+  width: 40px;
+}
+
+.dialog__personsLink {
+  display: inline-block;
+  margin-left: 10px;
+  color: #022308;
+  text-decoration: none;
+}
+
+.active {
+  color: yellow;
+}

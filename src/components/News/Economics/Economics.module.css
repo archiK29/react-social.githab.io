@@ -1,0 +1,29 @@
+.economyNews__title {
+  width: 300px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #1f13ce;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.economyNews__img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.economyNews__subtitle {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.economyNews__text {
+  width: 80%;
+  margin: 0 auto;
+}

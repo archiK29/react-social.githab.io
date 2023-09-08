@@ -1,0 +1,26 @@
+.navigation {
+  grid-area: n;
+  background-color: #1f13ce;
+  min-height: 910px;
+}
+
+.navigation__item {
+  list-style-type: none;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.navigation__item:last-child {
+  margin-top: 50px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 34px;
+  line-height: 1.5;
+}
+
+.navigation__link:focus {
+  color: #d3ee02;
+}

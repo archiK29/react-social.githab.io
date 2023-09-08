@@ -1,0 +1,30 @@
+.content__account {
+  height: 250px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.content__accountImg {
+  display: block;
+  width: 174px;
+  height: 164px;
+}
+
+.content__accountInfo {
+  margin-left: 40px;
+
+}
+
+.content__accountInfo div {
+  color: #4a4747;
+  font-size: 28px;
+}
+
+.content__accountName {
+  margin-bottom: 50px;
+}
+
+.content__accountInfo .content__accountName {
+  font-size: 34px;
+}

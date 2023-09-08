@@ -1,0 +1,38 @@
+.news {
+  background-image: url(../../images/news_bg.jpg);
+}
+
+.news__title {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+  background-color: #1f13ce;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.news__list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.new__item {
+  margin: 0 20px 20px;
+}
+
+.news__link {
+  text-decoration: none;
+  color: #d30c0c;
+  transition: all 0.3s;
+}
+
+.news__link:hover {
+  color: #1f13ce;
+}
+
+.news__link:focus {
+  color: #04fb25;
+}

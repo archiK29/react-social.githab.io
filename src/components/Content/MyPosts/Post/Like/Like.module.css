@@ -1,0 +1,22 @@
+.content__like {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: yellow;
+  margin-left: 10px;
+  margin-top: 10px;
+  z-index: -1;
+  position: relative;
+  display: inline-block;
+}
+
+.content__like img {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
