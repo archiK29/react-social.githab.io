@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react-social.githab.io/static/css/main.0f1f029a.css",
+    "main.js": "/react-social.githab.io/static/js/main.dd20aee2.js",
+    "static/js/787.28cb0dcd.chunk.js": "/react-social.githab.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bg.jpg": "/react-social.githab.io/static/media/bg.88fde337d787a5acbdff.jpg",
+    "static/media/world-news-bg.webp": "/react-social.githab.io/static/media/world-news-bg.dcb95eb8677ff5e495d7.webp",
+    "static/media/euro_news.webp": "/react-social.githab.io/static/media/euro_news.8f37ceb4e2d06d61f1f2.webp",
+    "static/media/news_bg.jpg": "/react-social.githab.io/static/media/news_bg.c5301e3fb5ffeceeda9c.jpg",
+    "static/media/sport_news.jpg": "/react-social.githab.io/static/media/sport_news.a5d429ae06ebedff9ad9.jpg",
+    "static/media/russia_bg.webp": "/react-social.githab.io/static/media/russia_bg.7e88fd840380163dc0ae.webp",
+    "static/media/economy-news.webp": "/react-social.githab.io/static/media/economy-news.dcd8ea215d9cd6efded8.webp",
+    "static/media/culture_news.webp": "/react-social.githab.io/static/media/culture_news.65a1b574d77efe693879.webp",
+    "static/media/social-photo.jpg": "/react-social.githab.io/static/media/social-photo.b99c7076af890e6e9425.jpg",
+    "static/media/logo.png": "/react-social.githab.io/static/media/logo.a7016bbf99fa302b8595.png",
+    "static/media/man.png": "/react-social.githab.io/static/media/man.f63aee8847cc716438b0.png",
+    "static/media/woman.png": "/react-social.githab.io/static/media/woman.d0b66517e03b83530a59.png",
+    "static/media/pasha.jpg": "/react-social.githab.io/static/media/pasha.c4eb91b8beab3e5602a2.jpg",
+    "static/media/alex.jpg": "/react-social.githab.io/static/media/alex.cf3c06b1cf1034fc4e49.jpg",
+    "static/media/vlad.jpg": "/react-social.githab.io/static/media/vlad.bdeead96c6469160fb3d.jpg",
+    "static/media/stas.jpg": "/react-social.githab.io/static/media/stas.beafaee870114566cfe8.jpg",
+    "static/media/thumbsUp.svg": "/react-social.githab.io/static/media/thumbsUp.3547f03bd2d75bc4f6ca5f73eff47465.svg",
+    "index.html": "/react-social.githab.io/index.html",
+    "main.0f1f029a.css.map": "/react-social.githab.io/static/css/main.0f1f029a.css.map",
+    "main.dd20aee2.js.map": "/react-social.githab.io/static/js/main.dd20aee2.js.map",
+    "787.28cb0dcd.chunk.js.map": "/react-social.githab.io/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f1f029a.css",
+    "static/js/main.dd20aee2.js"
+  ]
+}
